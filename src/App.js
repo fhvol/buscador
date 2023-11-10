@@ -13,7 +13,7 @@ function App() {
     //53437400/json/
 
     if(input === ''){
-      alert("Preencha o campo com um CEP.")
+      alert("Preencha o campo com um CEP válido.")
       return;
     }
 
