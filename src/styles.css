@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(black, yellow);
+    background: linear-gradient(blue, yellow);
 }
 
 .title{
