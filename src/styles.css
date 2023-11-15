@@ -4,12 +4,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(blue, yellow);
+    background: linear-gradient(#6A5ACD, #ADD8E6);
 }
 
 .title{
     font-size: 85px;
-    color: white;
+    color: black;
     animation: flipTitle 2s;
 }
 
@@ -35,13 +35,13 @@
     background-color: transparent;
     border: 0;
     font-size: 20px;
-    color: white;
+    color: black;
     outline: none;
     margin-right: 8px;
 }
 
 .containerInput input::placeholder{
-    color: white;
+    color: black;
 }
 
 .buttonSearch{
@@ -63,7 +63,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: white;
+    background-color: #ADD8E6;
     width: 500px;
     border-radius: 8px;
 }
@@ -80,7 +80,7 @@
 
 @media (max-width: 712px){
     .title{
-        font-size: 55px;
+        font-size: 45px;
     }
 
     .main h2{

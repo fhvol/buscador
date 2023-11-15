@@ -10,7 +10,6 @@ function App() {
   const [cep, setCep] = useState({})
 
   async function handleSearch(){
-    //53437400/json/
 
     if(input === ''){
       alert("Preencha o campo com um CEP.")
@@ -42,7 +41,7 @@ function App() {
         />
 
         <button className="buttonSearch" onClick={handleSearch}>
-          <FiSearch size={25} color='white'/>
+          <FiSearch size={25} color='black'/>
         </button>
       </div>
 
