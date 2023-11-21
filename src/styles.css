@@ -10,7 +10,7 @@
 .title{
     font-size: 85px;
     color: black;
-    animation: flipTitle 2s;
+    animation: flipTitle 0s;
 }
 
 @keyframes flipTitle {
